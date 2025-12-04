@@ -7,7 +7,10 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZ3VybGlua2F1ciIsImEiOiJjbHExYjM4cHUwNzE3MnBud
 const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11',
-    center: [0, 0],   
+    //center :[0,0],
+    center:[-97.1384, 49.8951],   //winnipeg 
+    // Default center set to Winnipeg so map is not blank before user clicks "Track"
+
     zoom: 17,
     pitch: 40
 });
