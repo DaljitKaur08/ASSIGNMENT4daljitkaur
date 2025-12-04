@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Daljit">
+    <meta name="description" content="PrimeCab real-time GPS tracking using MapBox">
+    <meta name="keywords" content="html, css, web, web development, javascript">
+    <title>PrimeCab | GPS Tracking</title>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v3.17.0-beta.1/mapbox-gl.css">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.17.0-beta.1/mapbox-gl.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.js"></script>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.css" type="text/css">
+
+    <link rel="icon" href="./assets/media/favicon.png?v=2" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/styles/styles.css" media="all">
+    <script src="./assets/script/app.js" defer></script>
+
+  </head>
+
+  <body>
+
+   
+    <header class="header">
+        <div class="container nav">
+            <h2 class="logo">PRIMECAB</h2>
+
+            <div class="nav-right">
+                <nav>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="login-btn">Login</button>
+            </div>
+        </div>
+    </header>
+
+
+   
+    <main>
+        <section class="track-box container">
+            <h1>Track Your Ride</h1>
+
+            <p>PrimeCab shows your ride’s real-time location with the click of a button.</p>
+
+            <button id="trackBtn" class="track-btn">Track</button>
+
+            
+            <div id="map" class="map-area"></div>
+        </section>
+    </main>
+
+
+   
+    <footer class="footer">
+        <p>&copy; 2025 PrimeCab. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

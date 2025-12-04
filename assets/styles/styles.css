@@ -1,0 +1,179 @@
+@charset "utf-8";
+@import "./reset.css";
+
+
+
+body {
+    background-color: #f2f5ff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+
+.header {
+    background-color: #dbe4ff;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 22px;
+    color: #2847cc;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #2847cc;
+}
+
+.login-btn {
+    padding: 8px 20px;
+    background-color: #2847cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-btn:hover {
+    background-color: #1b34a0;
+}
+
+
+
+
+.track-box {
+    margin-top: 30px;
+    background-color: #eaf0ff;
+    padding: 35px 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.track-box h1 {
+    color: #2847cc;
+    font-size: 30px;
+}
+
+.track-box p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.track-btn {
+    margin-top: 18px;
+    padding: 10px 30px;
+    background-color: #2847cc;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.track-btn:hover {
+    background-color: #1b34a0;
+}
+
+
+
+
+.map-area {
+    width: 100%;
+    height: 430px;
+    margin-top: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #bcc7f6;
+}
+
+
+
+
+.footer {
+    background-color: #dbe4ff;
+    margin-top: 40px;
+    text-align: center;
+    padding: 15px 0;
+    color: #2847cc;
+    font-size: 15px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .nav {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    .track-box h1 {
+        font-size: 26px;
+    }
+
+    .map-area {
+        height: 350px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .track-box h1 {
+        font-size: 22px;
+    }
+
+    .track-btn {
+        padding: 8px 24px;
+        font-size: 14px;
+    }
+
+    .map-area {
+        height: 280px;
+    }
+}
