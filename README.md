@@ -79,11 +79,6 @@ Open `index.html` in your browser.
 
 ---
 
-## 📸 Screenshot
-
-![PrimeCab GPS Tracking App](assets/images/screenshot.png)
-
----
 ##  How It Works (JavaScript Summary)
 
 - MapBox loads a default map centered on Winnipeg  
