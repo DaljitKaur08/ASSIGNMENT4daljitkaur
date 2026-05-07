@@ -76,7 +76,6 @@ Open the downloaded project folder.
 #### Step 3 — Run Application
 
 Open `index.html` in your browser.
-
 ---
 
 ##  How It Works (JavaScript Summary)
