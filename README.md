@@ -51,7 +51,39 @@ When the user clicks **Track**:
 ![Live Tracking](./assets/media/screenshot.png)
 
 ---
+## ▶️ How to Install / Run
 
+### Option 1 — Run Online
+
+Open the live application:
+
+https://daljitkaur08.github.io/ASSIGNMENT4daljitkaur/
+
+---
+
+### Option 2 — Run Locally
+
+#### Step 1 — Clone Repository
+
+```bash
+git clone https://github.com/DaljitKaur08/ASSIGNMENT4daljitkaur.git
+```
+
+#### Step 2 — Open Project Folder
+
+Open the downloaded project folder.
+
+#### Step 3 — Run Application
+
+Open `index.html` in your browser.
+
+---
+
+## 📸 Screenshot
+
+![PrimeCab GPS Tracking App](assets/images/screenshot.png)
+
+---
 ##  How It Works (JavaScript Summary)
 
 - MapBox loads a default map centered on Winnipeg  
@@ -64,6 +96,19 @@ When the user clicks **Track**:
 You can view the live version of the PrimeCab GPS Tracking App here:
 
 https://daljitkaur08.github.io/ASSIGNMENT4daljitkaur/
+
+##  Author
+
+Daljit Kaur
+
+- GitHub: https://github.com/DaljitKaur08
+- LinkedIn: https://www.linkedin.com/in/daljit-kaur-mitt/
+
+---
+
+##  License
+
+This project is licensed under the MIT License.
 
 
 
