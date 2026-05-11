@@ -91,6 +91,15 @@ You can view the live version of the PrimeCab GPS Tracking App here:
 
 https://daljitkaur08.github.io/ASSIGNMENT4daljitkaur/
 
+## Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript
+- Geolocation API
+- MapBox API
+- GitHub Pages
+
 ##  Author
 
 Daljit Kaur
